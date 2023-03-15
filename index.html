@@ -4,15 +4,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>Magic the Gathering</title>
 </head>
 <body>
-    <div class="cards-magic">
+    <h1 class="titulo-1">Magic the Gathering</h1>
+    <!-- <div class="cards-magic">
         <ul id="cartas"></ul>
         <button id="botao">Obter novas cartas</button>
+    </div> -->
+
+    <div class="cartas-lootbox">
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+        </div>
+        <button class="botao-acao" id="botao">Obter novas cartas</button>
+        <button class="botaoSalvar" id="botaoSalvar">Salvar Cartas</button>
+        <h2><a href="inventario.html">clique aqui para ir no inventario<a ></h2>
     </div>
     
-
-    <script src="cardMagic.js"></script>
+    
+    <script type="module" src="cardMagic.js"></script>
 </body>
 </html>

@@ -1,28 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(29,35,42);
+  background: linear-gradient(98deg, rgba(29,35,42,1) 0%, rgba(43,13,92,1) 58%, rgba(54,54,54,1) 100%);
+}
+
 img {
-    max-width: 200px;
-    max-height: 200px;
+  width: 240px;
+  height: 320px;
+    display: block;
   }
 
   ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    gap: 40px;
   }
 
   li{
-    padding: 20px;
-    display: table;
     font-size: 10px;
     list-style: none;
+  }
+
+  .titulo-1{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Tilt Warp', cursive;
   }
 
   #botao{
     margin: 0 auto;
     padding: 15px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: rebeccapurple;
+    border: 2px solid currentColor;
   }
 
-  .cards-magic{
+  #botao:hover{
+    color: rebeccapurple;
+    background-color: #FFF;
+    border: 2px solid currentColor;
+  }
+
+  /* .cards-magic{
     background-color: #c2c1c1;
+    max-width: 100%;
+    overflow-x: scroll;
+  } */
+
+  .swiper {
+      width: 240px;
+      height: 320px;
+      
+  }
+
+  .swiper-slide{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border-radius: 12px;
+  }
+
+  .cartas-lootbox{
+    margin-top: 50px;
   }
